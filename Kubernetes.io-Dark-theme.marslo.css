@@ -1,0 +1,143 @@
+body,
+  body > header,
+  .flip-nav header,
+  #encyclopedia,
+  #oceanNodes,
+  #features,
+  .panel,
+  .row,
+  .launch-content {
+    background-color: #303030;
+  }
+
+  #docsToc,
+  #docsContent code,
+  #docsContent pre code,
+  .highlight > pre,
+  .list-group-item,
+  .panel-default > .panel-heading,
+  pre {
+    background-color: #444444 !important;
+  }
+
+  .flip-nav ul.global-nav li a,
+  .open-nav ul.global-nav li a,
+  #docsToc .title,
+  #docsContent code,
+  #docsContent pre code,
+  #docsContent,
+  #oceanNodes,
+  #features,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: #ffffff;
+  }
+
+  #docsContent #markdown-toc a,
+  #docsContent #markdown-toc li,
+  .pi-accordion div.item > .title:before,
+  a {
+    border-color: transparent transparent transparent #3371e3 !important;
+    /*     color: #859900; */
+    color: #7088ff !important;
+    font-size: 16px !important;
+  }
+
+  #docsContent thead,
+  #docsContent tr:nth-child(even) {
+    background-color: #444;
+  }
+
+  .content,
+  .carousel-item {
+    color: #fff;
+    background-color: #000;
+  }
+
+  .gridPage p,
+  .launch-card h4,
+  .lastedit {
+    color: rgb(255, 255, 255) !important;
+  }
+
+  br {
+    display: block;
+    content: " ";
+    border-bottom: 2px solid transparent;
+  }
+
+  section#talkToUs,
+  section#cncf,
+  section#kubeweekly {
+    background-color: #303030;
+    color: rgb(255, 255, 255) !important;
+  }
+
+  .flip-nav .td-navbar,
+  a.nav-link.active {
+    background-color: #404040 !important;
+    color: #fff !important;
+  }
+
+  a,
+  p,
+  li,
+  #text,
+  .td-content {
+    color: #a8a8a8 !important;
+  }
+
+  .td-content>table, .td-box .row.section>table {
+    color: #C0C0C0 !important;
+  }
+
+  .td-content pre>code {
+    color: #FFA630 !important;
+  }
+
+  /* .ui-widget.ui-widget-content, */
+  /* .ui-tabs, */
+  .ui-widget-content,
+  .ui-widget-header {
+    background-color: #363636 !important;
+    color: #c0c0c0 !important;
+    border: 1px solid #222;
+  }
+
+  /* .ui-tabs-nav .ui-tabs-anchor ,*/
+  .ui-state-default {
+    background-color: #333 !important;
+    border: 1px solid #666 !important;
+  }
+
+  /*
+  .ui-widget-content .ui-state-active,
+  .ui-widget-header .ui-state-active,
+  a.ui-button:active,
+  .ui-button:active,
+  */
+  .ui-state-active,
+  .ui-button.ui-state-active:hover {
+    border: 1px solid #eee !important;
+    color: #aaa !important;
+    outline-offset: 1px;
+  }
+
+  /* div.td-content *  */
+  div.highlight *,
+  blockquote.callout,
+  .copy-code-icon {
+    background-color: #303030 !important;
+    color: #eee !important;
+  }
+
+  .td-content .highlight {
+    background-color: #4e4e4e !important;
+  }
+
+  .td-content blockquote.callout, body blockquote.callout {
+    border: 1px solid #5e5e5e !important;
+  }
